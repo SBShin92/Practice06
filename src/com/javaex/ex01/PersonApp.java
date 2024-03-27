@@ -6,7 +6,6 @@ public class PersonApp {
 
 		Person p = new Person("정우성", "010-1111-2222");
 		Customer s = new Customer("유재석", "010-2222-3333", 1, 1000);
-		System.out.println("kkkkkkk");
 		
 		
 		p.showInfo();
