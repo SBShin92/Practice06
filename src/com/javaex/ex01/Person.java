@@ -1,15 +1,17 @@
 package com.javaex.ex01;
 
 public class Person {
-	private String name;
+    private String name;
     private String hp;
 
     public Person() {
+        System.out.println("생성자 Person(0) 호출");
     }
 
     public Person(String name, String hp) {
         this.name = name;
         this.hp = hp;
+        System.out.println("생성자 Person(2) 호출");
     }
 
     public String getName() {
@@ -29,7 +31,6 @@ public class Person {
     }
 
     public void showInfo() {
-        System.out.printf("#이름:%s, #핸드폰:%s\n",
-                name, hp);
+        System.out.printf("#이름:%s, #핸드폰:%s\n", name, hp);
     }
 }

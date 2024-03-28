@@ -8,7 +8,16 @@ public class Depart extends Employee {
 		super(name, salary);
 		this.departName = departName;
 	}
-	
+
+	public String getDepartName() {
+		return departName;
+	}
+
+	public void setDepartName(String departName) {
+		this.departName = departName;
+	}
+
+	@Override
 	public void showInformation() {
         System.out.println("이름:" + getName() + " 연봉:" + getSalary() + " 부서:" + departName);
 	}

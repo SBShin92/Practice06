@@ -13,5 +13,7 @@ public class UserApp {
 		for (User user:userArray) {
 			user.showInfo();
 		}
+		System.out.printf("운영자의 월급은 %d원 입니다.\n",
+				((Employee)userArray[2]).getSalary());
 	}
 }

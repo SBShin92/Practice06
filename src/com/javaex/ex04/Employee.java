@@ -25,7 +25,6 @@ public class Employee extends User {
 		// TODO Auto-generated method stub
 		super.showInfo();
 		System.out.printf(", #월급:%d\n", salary);
-		System.out.printf("운영자의 월급은 %d원 입니다.\n", salary);
 	}
 	
 
